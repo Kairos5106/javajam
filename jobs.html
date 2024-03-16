@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaJam Coffee House</title>
+</head>
+<body>
+    <header>
+        <h1>JavaJam Coffee House</h1> <!-- yu are gey -->
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="menu.html">Menu</a>&nbsp;&nbsp;&nbsp;
+        <a href="music.html">Music</a>&nbsp;&nbsp;&nbsp;
+        <a href="jobs.html">Jobs</a>&nbsp;&nbsp;&nbsp;
+    </nav>
+    
+    <hr>
+    
+    <!-- Main content -->
+
+    <main>
+        <h2>Jobs at JavaJam</h2>
+        <p>
+            Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).
+        </p>
+        <form method="post", action=http://webdevbasics.net/scripts/javajam8.php>
+            <label for="name">*Name:</label><br>
+            <input type="text" id="name" required><br>
+
+            <label for="email">*Email:</label><br>
+            <input type="email" id="email" required><br>
+
+            <label for="experience">*Experience:</label><br>
+            <textarea id="experience" name="experience" rows="4" cols="50"></textarea><br>
+
+            <label for="job_position">Select job position:</label>
+            <select id="job_position" name="job_position">
+                <option value="">--Please choose an option--</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+            </select><br><br>
+
+            <label for="interview_date">Preferred Interview Date and Time</label><br>
+            <input type="datetime-local" id="interview_date" name="interview_date"><br><br>
+
+            <label for="photo_upload">Upload your photo:</label>
+            <input type="file" id="photo_upload" name="photo_upload"><br><br>
+
+            <input type="submit" value="Apply now!"></button>
+        </form>
+    </main>
+
+    <footer>
+        <p style="font-size: small; font-style: italic;">
+            Copyright © 2021 JavaJam Coffee House<br> 
+            <a href="mailto:yourfirstname@yourlastname.com" style="color:blue">
+                yourfirstname@yourlastname.com
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
