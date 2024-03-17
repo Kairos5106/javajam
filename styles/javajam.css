@@ -68,3 +68,15 @@ img{
     padding-right: 10px;
 }
 
+#address{
+    padding-left: 20px;
+}
+
+.details{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.floatright{
+    float: right;
+}
